@@ -9,7 +9,7 @@ public class MovieDTO {
 	private int duration;
 	private String language;
 	private GenreEnum genre;
-	Map<String, List<ShowDTO>> cityShowMap;
+	private Map<String, List<ShowDTO>> cityShowMap;
 
 	public int getMovieId() {
 		return movieId;
